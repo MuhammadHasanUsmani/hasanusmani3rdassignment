@@ -63,13 +63,29 @@ text-align: center;
 }
 #line1 li{
     display: inline-block;
-    border: 1px solid black;
-    margin-top: 8px;
-    
+    /* border: 1px solid black; */
+    margin-top: 8px;   
 }
-#f1{
-    border: 1px solid black;
-    /* text-align: left; */
+#line1 li:hover{
+  color: white;
+  background-color: rgb(2, 26, 100);
+  width: 30px;
+  height: 20px;
+}
+#line1 li:active{
+  color: white;
+  background-color: rgb(2, 26, 100);
+}
+#line2 li:hover{
+  color: white;
+  background-color: rgb(96, 124, 206);
+  border-radius: 50px;
+  font-size: 17px;
+}
+#line2 li:active{
+  color: white;
+  background-color: rgb(96, 124, 206);
+  border-radius: 50px;
 }
 #f1 li{
     padding: 2px 2px 2px 2px;
@@ -81,59 +97,90 @@ text-align: center;
     /* padding: 4px 1px 4px 0px; */
     margin-top: 8px;
     font-size: 15px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
-#f3{
+/* #f3{
     border: 1px solid black;
-}
+} */
 #f3 button{
     color: green;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 5px 0px 5px 0px;
+}
+#s1{
+  margin-top: 5px;
+}
+#home{
+  color: white !important;
+  background-color: rgb(96, 124, 206);
+  border-radius: 50px;
 }
 #s2 ul li{
     display: inline-block;
-    padding: 0px 15px 0px 15px;
-    
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    color: black;
+    /* text-align: center; */
 }
-/* #s2 ul{
-
-} */
 .marquee1{
     background-color: royalblue;
     color: white;
     text-align: center;
-    margin:10px 80px 10px 80px;
+    margin:10px 0px 20px 0px;
+    /* border: 1px solid black; */
 }
-.logo{
-  text-underline-position: auto green;
-}
-#intro{
+
+#intro1{
   text-align: center;
-  padding: 0px 0px 0px 120px;
-  border: 1px solid black;
+  /* padding: 0px 0px 0px 120px; */
+  /* border: 1px solid black; */
+  padding-left: 20px;
+}
+#intro1 img{
+  text-align: center;
+  /* border: 1px solid black; */
 }
 #intro p{
   text-align: justify;
   line-height: 1.9;
   color: grey;
   font-size: 1em;
+  margin: 5px 20px 10px 20px;
 }
-.para{
-  /* border: 1px solid black; */
-  margin: 30px 30px 30px 30px;
-  /* width: 850px; */
+/* .aside{
+  padding: 15px;
   text-align: center;
+} */
+/* @media only screen and (min-width: 720px){
+  .col-s-12 {
+    width: 83.33%;
+  }
 }
-.intro{
-  padding: 10px 170px 10px 170px;
-   /* border: 1px solid black; */
+@media only screen and (min-width: 540px){
+  .col-s-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 960px){
+  .col-s-12 {
+    width: 66.66%; */
+
+#para{
+  border: 1px solid black;
+  /* margin: 30px 30px 30px 30px; */
+  /* width: 970px; */
+  /* text-align: center; */
+  /* text-overflow: none; */
+  margin-top: 20px;
+}
+#pararow{
+  border: 1px solid black;
 }
 .intro p {
   text-align: justify;
   line-height: 1.6;
   color: grey;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 /* #t1{
   border: 1px solid black;
@@ -146,9 +193,6 @@ text-align: center;
 }
 .green {
   color: green;
-}
-#intro1{
-  text-align: center;
 }
 #nummain{
   /* background-color: rgba(36, 79, 242, ); */
@@ -176,9 +220,9 @@ background-color: royalblue;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-#e1{
+/* #e1{
   border: 1px solid black;
-}
+} */
 #box{
   margin: 10px 10px 10px 10px;
   padding: 15px 15px 15px 15px;
@@ -193,7 +237,7 @@ background-color: royalblue;
 #boxrow{
   margin-left: 70px;
   margin-right: 60px;
-border: 1px solid black;
+/* border: 1px solid black; */
 }
 #w1{
   padding: 15px;
@@ -207,7 +251,7 @@ border: 1px solid black;
 }
 #img{
   padding: 60px 0px 60px 0px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .ss{
   text-align: center;
@@ -215,18 +259,18 @@ border: 1px solid black;
 #img1{
   width: 200px;
   margin: 10px 10px 10px 50px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
-.images{
-  /* display: flex;
+/* .images{
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 10px; */
+  margin: 10px;
 border: 1px solid black;
-}
+} */
 #image-text{
   text-align: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .fot li{
   display: inline-block;
