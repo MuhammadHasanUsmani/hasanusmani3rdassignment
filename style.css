@@ -99,6 +99,22 @@ text-align: center;
     font-size: 15px;
     /* border: 1px solid black; */
 }
+/* #secondrow{
+  background-color: white;
+  padding: 0px 50px;
+  width: 100%;
+} */
+/* .sticky {
+  position:fixed ;
+  top: 55px;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px; */
+/* }
+.content{
+  margin: 75px 0px 0px 0px;
+} */
 /* #f3{
     border: 1px solid black;
 } */
@@ -166,16 +182,16 @@ text-align: center;
     width: 66.66%; */
 
 #para{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* margin: 30px 30px 30px 30px; */
   /* width: 970px; */
   /* text-align: center; */
   /* text-overflow: none; */
   margin-top: 20px;
 }
-#pararow{
+/* #pararow{
   border: 1px solid black;
-}
+} */
 .intro p {
   text-align: justify;
   line-height: 1.6;
@@ -229,6 +245,7 @@ background-color: royalblue;
   background-color: white;
   box-shadow: 0px 0px 4px grey;
   text-align: center;
+  border-radius: 10px;
 }
 #boxtext{
   font-weight: 600;
@@ -238,12 +255,18 @@ background-color: royalblue;
   margin-left: 70px;
   margin-right: 60px;
 /* border: 1px solid black; */
+/* padding-left: 150px; */
+/* width: ; */
+}
+.mission{
+  margin-top: 40px;
 }
 #w1{
   padding: 15px;
   margin-bottom: 20px;
-  background-color: silver;
-  border: 1px solid lightgray;
+  background-color: rgb(238, 242, 247);
+  border: 1px solid rgb(240, 233, 233);
+  border-top-right-radius: 57px;
 }
 .mar1{
   width: 250px;
@@ -255,11 +278,20 @@ background-color: royalblue;
 }
 .ss{
   text-align: center;
+/* border: 1px solid black; */
+}
+#ss1{
+  margin: auto;
+  /* border: 1px solid black; */
+  /* margin-right: 500px; */
+  text-align: center;
 }
 #img1{
   width: 200px;
   margin: 10px 10px 10px 50px;
   /* border: 1px solid black; */
+  border-radius: 100%;
+  box-shadow: 3px 3px 5px grey ;
 }
 /* .images{
   display: flex;
